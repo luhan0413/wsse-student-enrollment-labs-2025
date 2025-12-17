@@ -28,5 +28,5 @@
 - [Student Schema](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L97-L106)
 - [Error Schema](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L108-L117)
 
-### 安全性設定 (若已做)
+### 安全性設定
 - [ApiKey 定義與全域設定](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L87-L93)
