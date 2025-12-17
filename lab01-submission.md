@@ -4,7 +4,7 @@
 - [Repo URL](https://github.com/luhan0413/wsse-student-enrollment-labs-2025.git)
 
 ## 2. PR 連結 (通過 CI)
-- [PR #1](https://github.com/你的帳號/你的專案名稱/pull/1)
+- [PR #1]([https://github.com/你的帳號/你的專案名稱/pull/1](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/pull/1/commits/d04101bf6c3711384e82beb6bce91b3de3f3e253))
 
 ## 3. Swagger Editor 截圖 (無紅字)
 <!-- 請將 01-editor.png 拖拉至此處，或填入圖片連結 -->
