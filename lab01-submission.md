@@ -20,13 +20,13 @@
 ## 6. 重點片段連結 (檔案行號連結)
 
 ### 基礎路徑與方法
-- [/health (含 security 覆寫)](https://github.com/.../openapi.yaml#L26-L39)
-- [GET /students](https://github.com/.../openapi.yaml#L42-L55)
-- [POST /students (含 201 + Location)](https://github.com/.../openapi.yaml#L57-L70)
+- [/health (含 security 覆寫)](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L27-L41)
+- [GET /students](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L44-L63)
+- [POST /students (含 201 + Location)](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L65-L85)
 
 ### Schema 定義
-- [Student Schema](https://github.com/.../openapi.yaml#L79-L87)
-- [Error Schema](https://github.com/.../openapi.yaml#L90-L96)
+- [Student Schema](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L97-L106)
+- [Error Schema](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L108-L117)
 
 ### 安全性設定 (若已做)
-- [ApiKey 定義與全域設定](https://github.com/.../openapi.yaml#L22-L23)
+- [ApiKey 定義與全域設定](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/9b7f9cf00c5923076bfc2ac5dc7c9410a085c9a0/openapi/openapi.yaml#L87-L93)
