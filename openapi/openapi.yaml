@@ -115,3 +115,5 @@ components:
           example: "ERR_NOT_FOUND"
         message:
           type: string
+
+        #觸發CI
