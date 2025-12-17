@@ -2,7 +2,7 @@ name: OpenAPI Minimal CI
 
 on:
     pull_request:
-        paths: ["openapi/**/*.yaml"] # 只有改契約才跑
+        paths: ["openapi/**/*.yaml", "openapi/**/*.yml"]
     push:
         branches: [main]
 
