@@ -5,7 +5,7 @@
 
 ### 1. GitHub Repository
 <!-- 請在下方貼上你的專案首頁網址 -->
-- [專案首頁]([<請貼上你的 GitHub Repo 網址>](https://github.com/luhan0413/wsse-student-enrollment-labs-2025.git))
+- [專案首頁](https://github.com/luhan0413/wsse-student-enrollment-labs-2025.git)
 
 ### 2. Pull Request (CI 綠燈證明)
 <!-- 請在下方貼上顯示綠色勾勾的 PR 頁面網址 -->
