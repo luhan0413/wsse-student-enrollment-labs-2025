@@ -8,16 +8,15 @@
 
 ## 3. Swagger Editor 截圖 (無紅字)
 <!-- 請將 01-editor.png 拖拉至此處，或填入圖片連結 -->
-![01-editor.png](圖片連結會自動生成)
+![01-editor.png](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/bfdd98fab1d836eae1eb8caff2687fe5c8ce6748/%E6%88%AA%E5%9C%96/01-editor.png)
 
 ## 4. PR 綠燈截圖 (OpenAPI Minimal CI)
 <!-- 請將 02-pr-green.png 拖拉至此處 -->
-![02-pr-green.png](圖片連結會自動生成)
+![02-pr-green.png](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/bfdd98fab1d836eae1eb8caff2687fe5c8ce6748/%E6%88%AA%E5%9C%96/02-pr-green.png)
 
 ## 5. CI 內容截圖 (Job log)
 <!-- 請將 03-actions-log.png 拖拉至此處 -->
-![03-actions-log.png](圖片連結會自動生成)
-
+![03-actions-log.png](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/bfdd98fab1d836eae1eb8caff2687fe5c8ce6748/%E6%88%AA%E5%9C%96/03-actions-log.png)
 ## 6. 重點片段連結 (檔案行號連結)
 
 ### 基礎路徑與方法
