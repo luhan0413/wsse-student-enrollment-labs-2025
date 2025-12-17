@@ -1,18 +1,35 @@
-
 openapi: "3.0.0"
 info:
   title: "Hello API"
   version: "0.1.0"
+
+# 擴充 1: 加入 tags 與 externalDocs (Slide 49)
+tags:
+  - name: health
+    description: "服務健康檢查"
+  - name: Student
+    description: "學生資料管理" # 我額外幫你補上這個定義，讓 Swagger UI 更好看
+
+externalDocs:
+  description: "本課程手冊"
+  url: "https://example.edu/wsse/handbook"
+
 servers:
   - url: "https://api.example.edu/api/v1"
     description: "Production"
+
+# 擴充 6: 全域安全設定 (Slide 54)
+# 這裡設定預設所有端點都需要 ApiKey，除非該端點自己有覆寫 (如 /health)
+security:
+  - ApiKeyAuth: []
 
 paths:
   /health:
     get:
       summary: "Health check"
       description: "服務是否正常"
-      security: []
+      tags: [health]
+      security: [] # 擴充 6: 覆寫全域安全，此端點設為公開 (Slide 54)
       responses:
         "200":
           description: "OK"
@@ -22,3 +39,79 @@ paths:
                 type: object
                 properties:
                   status: { type: string, example: "ok" }
+
+  # 擴充 3 & 5: 加入 /students 路徑
+  /students:
+    get:
+      summary: "List students"
+      tags: [Student] # 建議改為 Student 分群，比較合理
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Student"
+        # 擴充 4: 宣告 500 錯誤 (Slide 52)
+        "500":
+          description: "Server Error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+    post:
+      summary: "Create student"
+      tags: [Student]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Student"
+            examples:
+              ok:
+                value: { id: 101, name: "Ann" }
+      responses:
+        # 擴充 5: 201 + Location (Slide 53)
+        "201":
+          description: "Created"
+          headers:
+            Location:
+              description: "新資源 URL (例如 /api/v1/students/101)"
+              schema:
+                type: string
+
+components:
+  # 擴充 6: 定義安全性機制 (Slide 54)
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+
+  schemas:
+    # 擴充 2: 最小資料模型 Student (Slide 50)
+    Student:
+      type: object
+      required: [id, name]
+      properties:
+        id:
+          type: integer
+          format: int64 # 定義為長整數
+        name:
+          type: string
+          minLength: 1  # 必填名稱且長度至少為 1
+
+    # 擴充 4: 統一錯誤包 Error (Slide 52)
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+          example: "ERR_NOT_FOUND"
+        message:
+          type: string
