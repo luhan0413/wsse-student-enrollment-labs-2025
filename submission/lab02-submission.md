@@ -9,7 +9,7 @@
 
 ### 2. Pull Request (CI 綠燈證明)
 <!-- 請在下方貼上顯示綠色勾勾的 PR 頁面網址 -->
-- [PR 連結](<[請貼上你的 Pull Request 網址](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/commit/34ff152e524d910e05b0dbae7c09fc5dc708a352)>)
+- [PR 連結](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/commit/34ff152e524d910e05b0dbae7c09fc5dc708a352)
 
 ### 3. 截圖畫面
 已放置於image/lab02
