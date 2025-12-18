@@ -42,4 +42,4 @@ curl "https://rhi2d2icnj.execute-api.us-east-1.amazonaws.com/prod/api/v1/student
 ```bash
 {"items":[{"createdAt":"2025-12-18T01:46:34.241Z","SK":"PROFILE","PK":"ID#5f367ee4-5621-4bdb-a425-5ea599537b20","email":"tester@internal.com","name":"LambdaTester"}],"nextCursor":"eyJQSyI6IklEIzVmMzY3ZWU0LTU2MjEtNGJkYi1hNDI1LTVlYTU5OTUzN2IyMCIsIlNLIjoiUFJPRklMRSJ9"}
 ```
-## 4. 截圖放置：
+## 4. 截圖放置url(./submission/lab04/evidence)：https://github.com/luhan0413/wsse-student-enrollment-labs-2025/tree/main/submission/lab04/evidence
