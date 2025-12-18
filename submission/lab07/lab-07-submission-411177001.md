@@ -14,7 +14,7 @@
 ## 2. 驗證截圖
 
 以下截圖證明系統監控與告警功能運作正常。
-驗證截圖均存放在：
+驗證截圖均存放在：https://github.com/luhan0413/wsse-student-enrollment-labs-2025/tree/e7640c99d41111f2ca8368a0daaec01c89bb9b41/submission/lab07/evidence
 
 #### (1) CloudWatch Alarm 狀態
 ![Alarm In Alarm 狀態](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-metrics.png)
