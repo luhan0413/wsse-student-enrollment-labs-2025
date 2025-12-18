@@ -17,21 +17,16 @@
 驗證截圖均存放在：
 
 #### (1) CloudWatch Alarm 狀態
-說明：CloudWatch Alarm 偵測到錯誤次數超過門檻 (Threshold > 3)，狀態轉為紅色的 **In Alarm**。
-![Alarm In Alarm 狀態](./evidence/411177001-alarm.png)
+![Alarm In Alarm 狀態](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-metrics.png)
 
 #### (2) SNS Email 通知
-說明：Alarm 觸發後，AWS SNS 自動發送告警信件至我的信箱。
-![Email 通知信](./evidence/411177001-alarm-email.png)
+![Email 通知信](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-alarm-email.png)
 
 #### (3) CloudWatch Dashboard
-說明：透過 CDK 部署的儀表板，顯示 Lambda Errors 與 Duration 的折線圖，可見錯誤次數飆升。
-![Dashboard](./evidence/411177001-dashboard.png)
+![Dashboard](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-dashboard.png)
 
 #### (4) CloudWatch Logs
-說明：在 Log groups 中查閱詳細錯誤訊息，顯示 "Invalid input: missing name or email"。
-![CloudWatch Logs](./evidence/411177001-cloudwatch-logs.png)
+![CloudWatch Logs](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-cloudwatch-logs.png)
 
 #### (5) X-Ray Service Map
-說明：啟用 X-Ray Tracing 後，可看見 Client -> Lambda 的呼叫鏈路，且 Lambda 節點呈現黃色/橘色（代表有錯誤發生）。
-![X-Ray Service Map](./evidence/411177001-xray-map.png)
+![X-Ray Service Map](https://github.com/luhan0413/wsse-student-enrollment-labs-2025/blob/f47ff9504c5da84ecd5490b93c137b732eeeb1c0/submission/lab07/evidence/411177001-xray-map.png)
